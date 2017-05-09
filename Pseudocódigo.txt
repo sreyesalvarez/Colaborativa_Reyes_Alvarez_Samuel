@@ -1,0 +1,12 @@
+Algoritmo precios
+	Escribir 'Nombre del producto'
+	Leer producto
+	Escribir 'Precio de cada unidad'
+	Leer perico
+	Escribir 'Máximo de unidades'
+	Leer maximo_unidades
+	Escribir producto
+	Para numero_unidades<-1 Hasta maximo_unidades Con Paso 1 Hacer
+		Escribir 'Unidades ' numero_unidades ' Precio ' precio*numero_unidades
+	Fin Para
+FinAlgoritmo
